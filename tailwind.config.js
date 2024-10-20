@@ -7,7 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        lightNav: "#fff"
+        darkMain: "#252529",
+        lightNav: "#FFFFFF",
+        logoColor: "#A020F0",
+        lightPurple: "#7B6FAb",
+        lightblue: "#EDF9FF",
+        buttonColor: "#1EC8D4",
+        dexButton: "#E6E6E6",
+        priceAreaBg: "#F7F9FC",
+        seaBlueColor: "#1F9CD1"
       }
     },
   },

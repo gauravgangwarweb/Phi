@@ -1,13 +1,20 @@
-import Navbar from "./components/Navbar"
+import DexButton from "./components/1DexButton";
+import Navbar from "./components/Navbar";
+import SwapCard from "./components/SwapCard";
+import TabBar from "./components/TabBar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
+    <div className="bg-lightblue dark:bg-darkMain w-full flex flex-col items-center justify-center">
       <Navbar />
+      {/* main page */}
+      <>
+        <TabBar />
+        <DexButton />
+        <SwapCard />
+      </>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
