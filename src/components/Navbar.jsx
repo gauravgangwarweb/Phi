@@ -21,7 +21,7 @@ const Navbar = () => {
                     <p className="text-lightPurple text-sm font-semibold">${"0.00"}</p>
                 </span>
                 {/* connect wallet button */}
-                <button className="bg-buttonColor text-sm text-white px-3 md:px-6 py-2 md:py-1 rounded-full">
+                <button className="bg-buttonColor hover:bg-white text-sm text-white hover:text-black hover:border-2 hover:border-buttonColor px-3 md:px-6 py-2 md:py-1 rounded-full transition-all duration-200">
                     Connect Wallet
                 </button>
             </div>
