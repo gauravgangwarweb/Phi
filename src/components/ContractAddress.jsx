@@ -1,6 +1,6 @@
 const ContractAddress = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between items-center px-8 mt-4 mb-6">
+    <div className="w-full flex flex-col md:flex-row justify-between items-center px-8 mt-4">
       <h4 className="flex gap-1 text-seaBlueColor font-bold">
         Bridge assets to BNB Chain
         <svg
@@ -35,7 +35,7 @@ const ContractAddress = () => {
         <p className="bg-lightblue mt-4">
             {"0x09f66afB0a733c9500e3Cbb00a08CCBf0de95faE"}
         </p>
-        <button className="bg-buttonColor text-white text-lg text-center font-extrabold self-center rounded-full cursor-pointer px-3 py-2 mt-4">Copy</button>
+        <button className="bg-buttonColor text-white text-lg text-center font-extrabold self-center rounded-full cursor-pointer px-3 py-2 mt-4 hover:bg-white border-2 border-white hover:border-buttonColor hover:text-buttonColor active:bg-buttonColor active:text-white transition-all duration-200">Copy</button>
       </div>
     </div>
   );
