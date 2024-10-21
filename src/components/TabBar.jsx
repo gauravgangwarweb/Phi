@@ -56,9 +56,9 @@ const TabBar = () => {
             <g
               fill="none"
               stroke="#00bfff"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.5"
               color="#52bfff"
             >
               <path d="M21.5 11.029c.324.774.5 1.605.5 2.471c0 2.059-.995 3.924-2.607 5.279a1.07 1.07 0 0 0-.393.813V22h-2l-.794-1.133a.52.52 0 0 0-.552-.198a10.7 10.7 0 0 1-5.308 0a.52.52 0 0 0-.552.198L9 22H7v-2.384a1 1 0 0 0-.432-.824C5.493 18.052 2 16.602 2 15.058V13.5c0-.592.448-1.071 1-1.071c.607 0 1.102-.236 1.302-.863c.767-2.402 2.929-4.33 5.719-5.145"></path>
