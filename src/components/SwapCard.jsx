@@ -202,7 +202,7 @@ const SwapCard = () => {
           />
         </div>
         {/* swap button */}
-        <button className="w-full bg-buttonColor text-white font-semibold rounded-xl cursor-pointer py-3 mt-4">
+        <button className="w-full bg-buttonColor hover:bg-inherit text-white hover:text-buttonColor font-semibold border-2 border-white hover:border-buttonColor active:bg-buttonColor active:text-white rounded-xl cursor-pointer py-3 mt-4 transition-all duration-200">
           Connect Wallet
         </button>
       </div>
