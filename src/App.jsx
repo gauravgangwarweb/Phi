@@ -1,4 +1,5 @@
 import DexButton from "./components/1DexButton";
+import BottomTabBar from "./components/BottomTabBar";
 import ContractAddress from "./components/ContractAddress";
 import Navbar from "./components/Navbar";
 import SwapCard from "./components/SwapCard";
@@ -15,6 +16,7 @@ function App() {
         <SwapCard />
         <ContractAddress />
         <DexButton />
+        <BottomTabBar />
       </>
     </div>
   );

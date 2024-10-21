@@ -1,6 +1,6 @@
 const ContractAddress = () => {
   return (
-    <div className="w-full flex justify-between items-center px-8 mt-4">
+    <div className="w-full flex justify-between items-center px-8 mt-4 mb-6">
       <h4 className="flex gap-1 text-seaBlueColor font-bold">
         Bridge assets to BNB Chain
         <svg
