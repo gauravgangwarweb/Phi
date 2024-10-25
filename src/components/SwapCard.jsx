@@ -4,7 +4,7 @@ const SwapCard = () => {
   // state variable for selected currency one
   const [selectedOne, setSelectedOne] = useState("USDT");
   // state variable for selected currency two
-  const [selectedTwo, setSelectedTwo] = useState("PHI");
+  const [selectedTwo, setSelectedTwo] = useState("1DEX");
 
   // function to handle change in selected currency one
   const handleChangeOne = (e) => {
@@ -21,7 +21,7 @@ const SwapCard = () => {
       <div className="w-full md:w-1/4 bg-lightNav dark:bg-gray-600 p-6 rounded-2xl mt-4">
         <h3 className="text-2xl dark:text-white font-medium">Swap</h3>
         <p className="text-gray-600 dark:text-white text-sm mt-2">
-          Trade PHI in an instant
+          Trade 1DEX in an instant
         </p>
         <div className="flex justify-between">
           <div></div>
@@ -103,7 +103,7 @@ const SwapCard = () => {
         <div className="w-full flex items-center justify-between mt-4">
           <div className="flex items-center gap-1">
             {/* currency icon */}
-            {selectedOne === "PHI" ? (
+            {selectedOne === "1DEX" ? (
               <img className="w-7" src="logo.png" alt="phi" />
             ) : (
               <img className="w-7" src="usdt.png" alt="usdt" />
@@ -115,7 +115,7 @@ const SwapCard = () => {
               onChange={handleChangeOne}
             >
               <option value="USDT">USDT</option>
-              <option value="PHI">PHI</option>
+              <option value="1DEX">1DEX</option>
             </select>
           </div>
           <p className="dark:text-white">{"0.00"}</p>
@@ -187,7 +187,7 @@ const SwapCard = () => {
               onChange={handleChangeTwo}
             >
               <option value="USDT">USDT</option>
-              <option value="PHI">PHI</option>
+              <option value="1DEX">1DEX</option>
             </select>
           </div>
           <p className="dark:text-white">{"0.00"}</p>
