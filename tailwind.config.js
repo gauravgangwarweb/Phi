@@ -9,7 +9,7 @@ export default {
       colors: {
         darkMain: "#252529",
         lightNav: "#FFFFFF",
-        logoColor: "#A020F0",
+        logoColor: "#843dd1",
         lightPurple: "#7B6FAb",
         lightblue: "#EDF9FF",
         buttonColor: "#1EC8D4",

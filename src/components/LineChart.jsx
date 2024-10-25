@@ -45,7 +45,7 @@ const LineChart = () => {
       x: {
         title: {
           display: true,
-          text: "PHI price ($)",
+          text: "1DEX price ($)",
           font: {
             size: 16,
           },
