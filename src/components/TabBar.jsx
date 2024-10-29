@@ -9,7 +9,7 @@ const TabBar = () => {
             src="phi-blue-logo.png"
             alt="phi-blue-logo"
           />
-          <p className="dark:text-white text-xs font-semibold">PHI</p>
+          <p className="dark:text-white text-xs font-semibold">1DEX</p>
         </span>
         {/* tab 2 */}
         <span className="flex gap-1 items-center cursor-pointer">
