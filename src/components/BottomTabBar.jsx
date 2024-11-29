@@ -64,6 +64,64 @@ const BottomTabBar = () => {
           xmlns="http://www.w3.org/2000/svg"
           width="25"
           height="25"
+          viewBox="0 0 24 24"
+        >
+          <g fill="none">
+            <path
+              fill="url(#tokenBrandedSwap0)"
+              d="M7 9.351V10.5L10.5 8L7 5.75v1.022a5.5 5.5 0 0 0 .5 10.978c1.26 0 3-.443 4-1.5c1.25-1.443 2.74-5.077 2.74-5.077l-4.463 2.893a2.877 2.877 0 0 1-5.02-1.732A2.875 2.875 0 0 1 7 9.351"
+            ></path>
+            <path
+              fill="url(#tokenBrandedSwap1)"
+              d="M17 14.649V13.5L13.5 16l3.5 2.25v-1.022a5.5 5.5 0 0 0-.5-10.978c-1.26 0-3 .443-4 1.5c-1.25 1.443-2.74 5.077-2.74 5.077l4.463-2.893A2.874 2.874 0 1 1 17 14.65"
+            ></path>
+            <defs>
+              <linearGradient
+                id="tokenBrandedSwap0"
+                x1="4.451"
+                x2="10.227"
+                y1="7.833"
+                y2="20.777"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#0076ef"></stop>
+                <stop offset=".13" stopColor="#007ff6"></stop>
+                <stop offset=".258" stopColor="#0084f6"></stop>
+                <stop offset=".376" stopColor="#008bf9"></stop>
+                <stop offset=".492" stopColor="#009df9"></stop>
+                <stop offset=".612" stopColor="#00aef9"></stop>
+                <stop offset=".731" stopColor="#00b9fa"></stop>
+                <stop offset=".829" stopColor="#00c5fb"></stop>
+                <stop offset="1" stopColor="#00ccfc"></stop>
+              </linearGradient>
+              <linearGradient
+                id="tokenBrandedSwap1"
+                x1="20.74"
+                x2="13.74"
+                y1="16.25"
+                y2="6.25"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#0076ef"></stop>
+                <stop offset=".13" stopColor="#007ff6"></stop>
+                <stop offset=".258" stopColor="#0084f6"></stop>
+                <stop offset=".376" stopColor="#008bf9"></stop>
+                <stop offset=".492" stopColor="#009df9"></stop>
+                <stop offset=".612" stopColor="#00aef9"></stop>
+                <stop offset=".731" stopColor="#00b9fa"></stop>
+                <stop offset=".829" stopColor="#00c5fb"></stop>
+                <stop offset="1" stopColor="#00ccfc"></stop>
+              </linearGradient>
+            </defs>
+          </g>
+        </svg>
+        <p className="text-xs dark:text-white">About</p>
+      </button>
+      {/* <button className="flex flex-col items-center cursor-pointer">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
           viewBox="0 0 512 512"
         >
           <path
@@ -138,7 +196,7 @@ const BottomTabBar = () => {
           </g>
         </svg>
         <p className="text-xs dark:text-white">Network</p>
-      </button>
+      </button> */}
     </div>
   );
 };

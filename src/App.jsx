@@ -1,26 +1,18 @@
-import DexButton from "./components/1DexButton";
-import BottomTabBar from "./components/BottomTabBar";
-import ContractAddress from "./components/ContractAddress";
-import LineChart from "./components/LineChart";
+import { BrowserRouter, Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
-import SwapCard from "./components/SwapCard";
-import TabBar from "./components/TabBar";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
-    <div className="bg-lightblue dark:bg-darkMain w-full flex flex-col items-center justify-center">
+    <BrowserRouter>
       <Navbar />
       {/* main page */}
-      <>
-        <TabBar />
-        <DexButton />
-        <SwapCard />
-        <ContractAddress />
-        <DexButton />
-        <BottomTabBar />
-        <LineChart />
-      </>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
