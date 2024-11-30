@@ -3,7 +3,7 @@ import BottomTabBar from "../components/BottomTabBar";
 
 const AboutUs = () => {
   return (
-    <div className="bg-lightblue dark:bg-darkMain dark:text-white w-full flex flex-col items-center justify-center md:px-28">
+    <div className="bg-lightblue dark:bg-darkMain dark:text-white w-full flex flex-col items-center justify-center md:px-28 pb-20">
       {/* hero-section */}
       <div className="hero-bg text-white rounded-b-3xl relative">
         <div className="grid grid-cols-1 md:grid-cols-2 px-10 pb-32 md:pb-16 mt-8 md:mt-0">
@@ -147,11 +147,42 @@ const AboutUs = () => {
         </p>
       </div>
       {/* refferal-section */}
-      <div className="self-start px-4 md:px-16 mt-28">
+      <div className="w-full self-start px-4 md:px-0 mt-28">
         <h2 className="text-3xl md:text-[42px] font-bold md:leading-normal">
           Beating the Top Cryptos : Unprecedented <br /> Future Growth of 1DEX
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 mt-10">
+          <div className="flex flex-col gap-4">
+            <div>
+              <h4 className="text-xl font-bold">5% Commission</h4>
+              <p className="text-lg">On every trade your referrals make</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold">Dual Rewards</h4>
+              <p className="text-lg">Profit from both buy and sell trades</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold">Unlimited Potential</h4>
+              <p className="text-lg">No cap on referrals or earnings</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold">Passive Income</h4>
+              <p className="text-lg">Refer once and earn continuously from your network</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold">Easy Tracking</h4>
+              <p className="text-lg">Monitor earnings in real-time</p>
+            </div>
+          </div>
+          <div className="flex justify-end mt-10 md:mt-0">
+            <img
+              className="w-full"
+              loading="lazy"
+              src="image.png"
+              alt="commitment"
+            />
+          </div>
+        </div>
       </div>
       <BottomTabBar />
     </div>
