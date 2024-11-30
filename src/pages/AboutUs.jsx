@@ -139,7 +139,7 @@ const AboutUs = () => {
         <h2 className="text-3xl md:text-[42px] text-center font-bold md:leading-normal">
           How 1DEX Works?
         </h2>
-        <p className="text-xl text-center font-medium mt-10 md:mt-4 pr-16">
+        <p className="text-xl text-center font-medium mt-10 md:mt-4 px-4 md:px-0">
           Our patented technology ensures price increases regardless of market
           conditions, offering unlimited growth and the potential to outperform
           top cryptocurrencies. Follow our suggested trading guidelines to

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const BottomTabBar = () => {
   return (
     <div className="w-full bg-lightNav dark:bg-gray-600 fixed bottom-0 flex justify-around mt-4 py-2">
-      <button className="flex flex-col items-center cursor-pointer">
+      <Link to="/" className="flex flex-col items-center cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
@@ -60,7 +60,7 @@ const BottomTabBar = () => {
           </g>
         </svg>
         <p className="text-xs dark:text-white">Swap</p>
-      </button>
+      </Link>
       <Link to="/about" className="flex flex-col items-center cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
